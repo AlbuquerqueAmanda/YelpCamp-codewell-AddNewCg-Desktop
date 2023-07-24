@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+* {
+    font-family: 'Archivo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.home {
+    margin-left: 30px;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+.username {
+    margin-left: 830px;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+.logout {
+    margin-left: 30px;
+    color: #4F4F4F;
+}
+h1 {
+    margin-bottom: 15px;
+    margin-left: -110px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    color: #4F4F4F;
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: -7px;
+    font-size: 18px;
+}
+input {
+    width: 455px;
+    height: 37px;
+    border: none;
+    background-color: #f4f4f3;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.description-ta {
+    width: 450px;
+    height: 170px;
+    background-color: #f4f4f3;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    padding-top: 15px;
+    border-radius: 4px;
+}
+::placeholder {
+    padding-left: 15px;
+}
+.submit {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+footer {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
